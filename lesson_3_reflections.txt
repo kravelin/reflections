@@ -17,3 +17,7 @@ What is the benefit of having a copy of the last known state of the remote store
 How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
 
 - would probably communicate via chat service and/or email, sending files through those methods or ftp to a shared space. Communication may be easier with chat service but sharing and updating files would be harder.
+
+When would you want to make changes in a separate branch rather than directly in master? What benefits does each approach have?
+
+- when working on a new feature with others or by yourself so that it doesn't corrupt the working master branch. Working directly on master means not having to worry about merges. Working with a branch means you can test code or work on something without stepping on the toes of others working on the same base code.
